@@ -1,0 +1,109 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+section::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+.egld {
+  background: linear-gradient(
+    to right bottom,
+    #5433ff 0%,
+    #20bdff 50%,
+    #a5fecb 100%
+  );
+
+  border-radius: 20px;
+}
+
+.bitcoin {
+  text-align: center;
+  background: linear-gradient(to bottom, #acb6e5 40%, #86fde8 100%);
+  border-radius: 20px;
+}
+
+.sol {
+  background: linear-gradient(
+    to left bottom,
+    #0052d4 0%,
+    #4364f7 40%,
+    #6fb1fc 100%
+  );
+
+  /* display: flex; */
+  text-align: center;
+  border-radius: 20px;
+}
+
+.ada {
+  background: linear-gradient(
+    to right bottom,
+    #bbd2c5 33%,
+    #536976 67%,
+    #292e49 100%
+  );
+
+  /* display: flex; */
+  text-align: center;
+  border-radius: 20px;
+}
+
+.ethereum {
+  background: linear-gradient(to bottom, #f7f8f8 40%, #acbb78 100%);
+
+  /* display: flex; */
+  text-align: center;
+  border-radius: 20px;
+}
+
+.binance {
+  background: linear-gradient(to left bottom, #536976 40%, #292e49 100%);
+
+  /* display: flex; */
+  text-align: center;
+  border-radius: 20px;
+}
+
+.near {
+  background: linear-gradient(to right bottom, #ff416c 0%, #f09819 100%);
+
+  /* display: flex; */
+  text-align: center;
+  border-radius: 20px;
+}
+.dot {
+  background: linear-gradient(to bottom, #e55d87 34%, #5fc3e4 100%);
+
+  /* display: flex; */
+  text-align: center;
+  border-radius: 20px;
+}
+.xrp {
+  background: linear-gradient(to left bottom, #ff512f 40%, #ffe000 100%);
+
+  /* display: flex; */
+  text-align: center;
+  border-radius: 20px;
+}
+
+.text-dark:hover,
+.text-dark:active {
+  color: white !important;
+}
+
+#research {
+  background: linear-gradient(to bottom, #fbc7d4 10%, #9796f0 100%);
+}
+#information {
+  background: linear-gradient(to bottom, #56b4d3 10%, #fbc7d4 80%);
+}
+
+#contact {
+  border-top: 2px black solid;
+
+  background: linear-gradient(to bottom, #9796f0 30%, #7aa1d2 70%);
+}
